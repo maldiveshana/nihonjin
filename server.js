@@ -59,7 +59,7 @@ app.use((req, res, next) => {
 /* =====================================================
    ACCESS CONTROL
 ===================================================== */
-const ALLOWED_ORIGIN = "https://welnessclass.shop";
+const ALLOWED_ORIGIN = "https://mingletap.shop";
 
 app.use((req, res, next) => {
 
@@ -112,6 +112,7 @@ app.get("*", (req, res) => {
 ===================================================== */
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log("🚀 Server running on port " + PORT));
+
 
 
 
